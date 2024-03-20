@@ -4,6 +4,7 @@ import './Post.css'
 const Post = ({post}) => {
     const {title, body, userId, id} = post;
 
+    // navigate is for where you want to go to the next 
     const navigate = useNavigate();
 
     const handleClick = () => {
